@@ -6,7 +6,6 @@ def rewrite_file(path1=None, path2=None, path3=None):
         path1 = '1.txt'
         path2 = '2.txt'
         path3 = '3.txt'
-        # os.chdir('sorted')
         out_file = "rewrite_file.txt"
         file1_path = os.path.join(os.getcwd(), path1)
         file2_path = os.path.join(os.getcwd(), path2)
