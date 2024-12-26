@@ -41,5 +41,8 @@ def get_shop_list_by_dishes(dishes, person_count):
             print(f'\n"Такого блюда нет в списке!"\n')
     return ingr_list
 
+
 cook_book = read_cookbook()
-pprint(cook_book['Запеченный картофель'])
+# pprint(cook_book)
+dishes = get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2)
+pprint(dishes)
