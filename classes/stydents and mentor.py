@@ -25,8 +25,6 @@ class Mentor:
 
 
 class Lecturer(Mentor):
-    def __init__(self):
-        self.grades = {}
     pass
 
 
@@ -44,7 +42,8 @@ class Reviewer(Mentor):
 best_student = Student('Ruoy', 'Eman', 'your_gender')
 best_student.courses_in_progress += ['Python']
 
-cool_eviewer = Reviewer('Some', 'Buddy')
+cool_lecturer = Lecturer('Piter', 'Agilov')
+cool_reviewer = Reviewer('Some', 'Buddy')
 cool_reviewer.courses_attached += ['Python']
 
 cool_reviewer.rate_hw(best_student, 'Python', 10)
@@ -53,3 +52,5 @@ cool_reviewer.rate_hw(best_student, 'Python', 10)
 
 
 print(best_student.grades)
+print(cool_lecturer)
+print(cool_reviewer)
