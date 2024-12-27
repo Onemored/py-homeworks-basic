@@ -38,7 +38,3 @@ def get_shop_list_by_dishes(dishes, person_count):
         else:
             print(f'\n"Такого блюда нет в списке!"\n')
     return ingr_list
-
-cook_book = read_cookbook()
-print(cook_book)
-
