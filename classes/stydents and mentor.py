@@ -52,5 +52,5 @@ cool_reviewer.rate_hw(best_student, 'Python', 10)
 
 
 print(best_student.grades)
-print(cool_lecturer)
-print(cool_reviewer)
+print(cool_lecturer.name)
+print(cool_reviewer.name)
