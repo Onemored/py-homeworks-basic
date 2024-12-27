@@ -66,3 +66,5 @@ def rewrite_file(path1=None, path2=None, path3=None):
     else:
         print('Давай лучше без параметров')
     return
+
+rewrite_file()
