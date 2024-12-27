@@ -1,5 +1,6 @@
 import os
 
+
 def reads_files():
     fds = sorted(os.listdir())
     files_list = {}
@@ -17,11 +18,11 @@ def reads_files():
                 info_file['name_file'], info_file['lines_in_file'] = file_name, count
                 info_about_file.append(info_file)
 
-
         files_list[i] = info_about_file
     return files_list
-            # print(file_name)
-            # print(count)
+    # print(file_name)
+    # print(count)
+
 
 test = reads_files()
 print(test)
